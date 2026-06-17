@@ -1,6 +1,6 @@
 # Inter-Branch Excess Rebalancer
 
-<img src="https://raw.githubusercontent.com/amirayman20/inter-branch-excess-rebalancer/main/assets/logic_flow.png" width="100%">
+<img src=["https://raw.githubusercontent.com/amirayman20/inter-branch-excess-rebalancer/main/assets/logic_flow.png"](https://github.com/amirayman20/inter-branch-excess-rebalancer/blob/main/assets/inter_branch_rebalancer_logic_flow.png) width="100%">
 
 ---
 
