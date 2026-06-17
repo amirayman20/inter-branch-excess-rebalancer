@@ -140,11 +140,11 @@ python main_transfer_script.py
 # Settings
 
 ```python
-MIN_WAREHOUSE_QTY  = 12
-MIN_COVERAGE_DAYS  = 60
-NEED_DAYS          = 30
-EXPIRE_LIMIT_DAYS  = 120
-QUARTER_DAYS       = 120
+MIN_WAREHOUSE_QTY  = 12    # لو رصيد المستودع للصنف ≤ 12، يبقى المستودع مش قادر يغطي → ندخل في التحويل بين الفروع
+MIN_COVERAGE_DAYS  = 60    # نسيب في الفرع المصدر تغطية تكفيه 60 يوم، والباقي يُعتبر EXCESS قابل للتحويل
+NEED_DAYS          = 30    # نحسب احتياج الفرع المستهدف على أساس تغطية 30 يوم قدام
+EXPIRE_LIMIT_DAYS  = 120   # نستبعد أي صنف باقي على انتهاء صلاحيته أقل من 120 يوم (مايصلحش للتحويل)
+QUARTER_DAYS       = 120   # عدد أيام فترة المبيعات المستخدمة في حساب الاستهلاك اليومي (تقريبًا ربع سنة)
 ```
 
 ---
